@@ -48,4 +48,4 @@ def generate():
   return render_template('index.html', generated_image=img_str, generated_text=generated_text, prompt=prompt)
 
 if __name__ == '__main__':
-    app.run(port=4040)
+    app.run()
